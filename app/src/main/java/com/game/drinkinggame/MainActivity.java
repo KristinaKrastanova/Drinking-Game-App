@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -18,7 +17,6 @@ import java.util.Map;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-
     private Map<Integer, String> cards;
     private List<Integer> keysAsArray;
     private ImageView imageView;
@@ -29,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
-        imageView = findViewById(R.id.imageView);
+    imageView = findViewById(R.id.imageView);
         textView = findViewById(R.id.textView);
 
         cards = new HashMap<>();
